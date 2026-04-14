@@ -9,15 +9,15 @@ const Hero = ({ socials, primaryColor }) => {
   ];
 
   const skills = [
-  "Python",
-  "Machine Learning",
-  "NLP",
-  "LLM Systems",
-  "FastAPI",
-  "PostgreSQL",
-  "Docker",
-  "Time Series"
-];
+    "Python",
+    "Machine Learning",
+    "NLP",
+    "LLM Systems",
+    "FastAPI",
+    "PostgreSQL",
+    "Docker",
+    "Time Series"
+  ];
 
   const [index, setIndex] = useState(0);
   const [fade, setFade] = useState(true);
@@ -46,22 +46,48 @@ const Hero = ({ socials, primaryColor }) => {
           </span>
         </h1>
 
-<p className="text-slate-400 text-lg md:text-xl max-w-lg mb-12 leading-relaxed text-left">
-  <span className="text-white font-semibold text-xl md:text-2xl leading-snug">
-    AI Engineer building production-grade <br />
-    LLM + OCR systems
-  </span>
-  <br /><br />
-  <span className="text-slate-200 font-medium">
-    Processed 15,000+ enterprise emails with 92% accuracy, reducing manual effort by 70%.
-  </span>
-  <br /><br />
-  Focused on ML deployment, automation, and decision systems.
-</p>
+        <p className="text-slate-400 text-lg md:text-xl max-w-lg mb-8 leading-relaxed text-left">
+          <span className="text-white font-semibold text-xl md:text-2xl leading-snug">
+            AI Engineer building production-grade <br />
+            LLM + OCR systems
+          </span>
+          <br /><br />
+          <span className="text-slate-200 font-medium">
+            Processed 15,000+ enterprise emails with 92% accuracy, reducing manual effort by 70%.
+          </span>
+          <br /><br />
+          Focused on ML deployment, automation, and decision systems.
+        </p>
 
+        {/* ✅ NEW BUTTONS */}
+        <div className="flex flex-wrap gap-4 mb-8">
+
+          <a
+            href="/resume.pdf"
+            download
+            className="flex items-center gap-2 bg-[#a2df0c] text-black px-6 py-3 rounded-xl font-semibold hover:scale-105 transition"
+          >
+            📄 Download Resume
+          </a>
+
+          <a
+            href="https://github.com/yashchordiya07"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-white/20 px-6 py-3 rounded-xl hover:bg-white/10 transition text-white"
+          >
+            GitHub
+          </a>
+
+        </div>
+
+        {/* SKILLS */}
         <div className="flex flex-wrap gap-3">
           {skills.map((skill) => (
-            <span key={skill} className="px-3 py-2 bg-white/5 text-white text-xs rounded">
+            <span
+              key={skill}
+              className="px-3 py-2 bg-white/5 text-white text-xs rounded"
+            >
               {skill}
             </span>
           ))}
@@ -71,8 +97,8 @@ const Hero = ({ socials, primaryColor }) => {
       {/* RIGHT */}
       <div className="flex flex-col items-center gap-6">
         <div className="w-72 h-72 rounded-full overflow-hidden border">
-          <img 
-            src="/yash-portfolio/Aditya.png" 
+          <img
+            src="/yash-portfolio/Aditya.png"
             alt="Yash Chordiya"
             className="w-full h-full object-cover"
           />
