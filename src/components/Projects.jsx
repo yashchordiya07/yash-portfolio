@@ -26,14 +26,15 @@ const projectData = [
     keyFeatures: [
       "Automated email parsing",
       "Structured data extraction",
-      "Microservice architecture"
+      "Microservice architecture",
+      "End-to-end pipeline orchestration"
     ]
   },
   {
-    title: "Time-Series ML Trading Strategy",
+    title: "ML-Based Quant Trading System",
     category: "Quant / ML",
     description:
-      "Developed ML-based trading models using time-series forecasting and walk-forward validation.",
+      "Designed and deployed ML-driven trading systems using time-series forecasting and robust walk-forward validation",
     impact:
       "~20% CAGR with 1.3 Sharpe ratio across multi-asset datasets.",
     tech: ["Python", "PyTorch", "Scikit-learn"],
@@ -43,12 +44,12 @@ const projectData = [
     ]
   },
   {
-    title: "Crypto Arbitrage System",
+    title: "Low-Latency Crypto Arbitrage Engine",
     category: "Quant / Systems",
     description:
       "Built an automated arbitrage engine identifying price inefficiencies across exchanges.",
     impact:
-      "Executed low-latency trades with consistent arbitrage opportunities.",
+       "Identified real-time arbitrage opportunities across exchanges with low-latency execution pipelines.",
     tech: ["Python", "APIs", "Async Systems"],
     keyFeatures: [
       "Real-time price tracking",
