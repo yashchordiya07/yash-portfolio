@@ -14,13 +14,15 @@ const Projects = ({ projects, activeFilter, currentTheme, setCurrentTheme, THEME
   const lastTapRef = useRef(0);
   const themeTimeoutRef = useRef(null);
 
- const projectData = [
+const projectData = [
   {
     title: "Email AI Automation System",
     category: "AI / LLM",
     description:
-      "OCR + LLM pipeline processing 500+ emails/day with 92% accuracy.",
-    tech: ["Python", "FastAPI", "PaddleOCR", "Mistral"],
+      "Built an end-to-end OCR + LLM pipeline for automated enterprise email processing and structured data extraction.",
+    impact:
+      "Processed 15,000+ emails with 92% accuracy, reducing manual effort by 70%.",
+    tech: ["Python", "FastAPI", "OCR", "LLM", "PostgreSQL"],
     keyFeatures: [
       "Automated email parsing",
       "Structured data extraction",
@@ -28,25 +30,29 @@ const Projects = ({ projects, activeFilter, currentTheme, setCurrentTheme, THEME
     ]
   },
   {
-    title: "Time-Series ML Strategy",
-    category: "Quant",
+    title: "Time-Series ML Trading Strategy",
+    category: "Quant / ML",
     description:
-      "Analyzed 10 years of data across 20 assets with ML models.",
+      "Developed ML-based trading models using time-series forecasting and walk-forward validation.",
+    impact:
+      "~20% CAGR with 1.3 Sharpe ratio across multi-asset datasets.",
     tech: ["Python", "PyTorch", "Scikit-learn"],
     keyFeatures: [
-      "27% Sharpe improvement",
-      "Walk-forward validation"
+      "Walk-forward validation",
+      "Risk-adjusted optimization"
     ]
   },
   {
-    title: "Churn Prediction System",
-    category: "ML",
+    title: "Crypto Arbitrage System",
+    category: "Quant / Systems",
     description:
-      "Built churn + survival models for 7000+ users.",
-    tech: ["Python", "Lifelines"],
+      "Built an automated arbitrage engine identifying price inefficiencies across exchanges.",
+    impact:
+      "Executed low-latency trades with consistent arbitrage opportunities.",
+    tech: ["Python", "APIs", "Async Systems"],
     keyFeatures: [
-      "ROC-AUC 0.86",
-      "Survival analysis"
+      "Real-time price tracking",
+      "Low-latency execution"
     ]
   }
 ];
