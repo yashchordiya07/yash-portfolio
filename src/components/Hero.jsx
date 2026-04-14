@@ -63,7 +63,7 @@ const Hero = ({ socials, primaryColor }) => {
         <div className="flex flex-wrap gap-4 mb-8">
 
           <a
-            href="/resume.pdf"
+            href="/Resume.pdf"
             download
             className="flex items-center gap-2 bg-[#a2df0c] text-black px-6 py-3 rounded-xl font-semibold hover:scale-105 transition"
           >
