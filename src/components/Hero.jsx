@@ -59,7 +59,7 @@ const Hero = ({ socials, primaryColor }) => {
       <div className="flex flex-col items-center gap-6">
         <div className="w-72 h-72 rounded-full overflow-hidden border">
           <img 
-            src="/Aditya_Portfolio/Aditya.png" 
+            src="/yash-portfolio/Aditya.png" 
             alt="Yash Chordiya"
             className="w-full h-full object-cover"
           />
