@@ -41,8 +41,8 @@ const profileData = {
         }
     ],
     socials: {
-        linkedin: "https://www.linkedin.com/in/aditya-goud-1a1444277/",
-        github: "https://github.com/Aditygoud"
+        linkedin: "https://linkedin.com/in/yash-chordiya20",
+        github: "https://github.com/yashchordiya07"
     }
 };
 
