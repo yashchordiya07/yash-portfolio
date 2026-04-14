@@ -9,10 +9,15 @@ const Hero = ({ socials, primaryColor }) => {
   ];
 
   const skills = [
-    "Python", "Machine Learning", "Time Series", "NLP",
-    "FastAPI", "Docker", "PostgreSQL",
-    "Pandas", "NumPy", "Scikit-learn", "PyTorch"
-  ];
+  "Python",
+  "Machine Learning",
+  "NLP",
+  "LLM Systems",
+  "FastAPI",
+  "PostgreSQL",
+  "Docker",
+  "Time Series"
+];
 
   const [index, setIndex] = useState(0);
   const [fade, setFade] = useState(true);
