@@ -25,19 +25,19 @@ const displayCerts = [
     title: "NISM Research Analyst",
     issuer: "NISM",
     date: "2025",
-    image: "PowerBI.jpg"
+    image: "PowerBI.png"
   },
   {
     title: "IBM Data Analytics",
     issuer: "IBM",
     date: "2023",
-    image: "Infosys Python.jpg"
+    image: "Infosys Python.jpeg"
   },
   {
     title: "TATA GenAI Simulation",
     issuer: "TATA",
     date: "2025",
-    image: "lumenore-certificate.jpg"
+    image: "lumenore-certificate.png"
   }
 ];
 
