@@ -42,11 +42,13 @@ const Hero = ({ socials, primaryColor }) => {
         </h1>
 
 <p className="text-slate-400 text-lg md:text-xl max-w-lg mb-12 leading-relaxed text-left">
-  AI Engineer building production-grade LLM + OCR systems.
+  <span className="text-white font-semibold">
+    AI Engineer building production-grade LLM + OCR systems.
+  </span>
   <br /><br />
-  Processed 15,000+ enterprise emails with 92% accuracy, reducing manual effort by 70% through automated AI pipelines.
+  Processed 15,000+ enterprise emails with 92% accuracy, reducing manual effort by 70%.
   <br /><br />
-  Skilled in Python, machine learning, and scalable system design, focused on real-world applications in automation, finance, and intelligent decision systems.
+  Focused on real-world ML deployment, automation, and intelligent decision systems.
 </p>
 
         <div className="flex flex-wrap gap-3">
