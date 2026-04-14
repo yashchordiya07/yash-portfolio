@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Any custom CSS you want can go below this */
+body {
+  @apply bg-slate-950;
+}
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
