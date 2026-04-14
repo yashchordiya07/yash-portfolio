@@ -207,8 +207,12 @@ const projectData = [
                 {projectData[currentIndex].title}
               </h3>
               <p className="text-slate-400 text-lg md:text-xl leading-relaxed max-w-2xl">
-                {projectData[currentIndex].description}
-              </p>
+  {projectData[currentIndex].description}
+</p>
+
+<p className="text-[#a2df0c] font-semibold text-sm md:text-base mt-2">
+  {projectData[currentIndex].impact}
+</p>
 
               {projectData[currentIndex].keyFeatures && (
                 <div className="py-2">
