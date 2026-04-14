@@ -63,12 +63,13 @@ const Hero = ({ socials, primaryColor }) => {
         <div className="flex flex-wrap gap-4 mb-8">
 
           <a
-            href="/Resume.pdf"
-            download
-            className="flex items-center gap-2 bg-[#a2df0c] text-black px-6 py-3 rounded-xl font-semibold hover:scale-105 transition"
-          >
-            📄 Download Resume
-          </a>
+  href="/resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 bg-[#a2df0c] text-black px-6 py-3 rounded-xl font-semibold hover:scale-105 transition"
+>
+  📄 View Resume
+</a>
 
           <a
             href="https://github.com/yashchordiya07"
@@ -82,6 +83,7 @@ const Hero = ({ socials, primaryColor }) => {
         </div>
 
         {/* SKILLS */}
+        
         <div className="flex flex-wrap gap-3">
           {skills.map((skill) => (
             <span
