@@ -26,7 +26,7 @@ const Experience = ({ currentTheme, THEMES }) => {
 const education = [
   {
     institution: "KK Wagh Institute of Engineering",
-    degree: "BTech AI & Data Science",
+    degree: "B.Tech – Artificial Intelligence & Data Science",
     year: "2022 – 2026",
     score: "7.75 CGPA"
   },
@@ -39,7 +39,7 @@ const education = [
   {
     institution: "Horizon Academy",
     degree: "Class 10",
-    year: "2019",
+    year: "2020",
     score: "87.5%"
   }
 ];
