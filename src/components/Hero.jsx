@@ -42,15 +42,16 @@ const Hero = ({ socials, primaryColor }) => {
         </h1>
 
 <p className="text-slate-400 text-lg md:text-xl max-w-lg mb-12 leading-relaxed text-left">
-  <span className="text-white font-semibold text-xl md:text-2xl">
-    AI Engineer building production-grade LLM + OCR systems.
+  <span className="text-white font-semibold text-xl md:text-2xl leading-snug">
+    AI Engineer building production-grade <br />
+    LLM + OCR systems
   </span>
   <br /><br />
-  <span className="text-slate-300">
+  <span className="text-slate-200 font-medium">
     Processed 15,000+ enterprise emails with 92% accuracy, reducing manual effort by 70%.
   </span>
   <br /><br />
-  Focused on real-world ML deployment, automation, and decision systems.
+  Focused on ML deployment, automation, and decision systems.
 </p>
 
         <div className="flex flex-wrap gap-3">
