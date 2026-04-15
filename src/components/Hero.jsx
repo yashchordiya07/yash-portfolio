@@ -39,12 +39,20 @@ const Hero = ({ socials, primaryColor }) => {
       {/* LEFT */}
       <div className="text-center md:text-left flex-1">
 
-        <h1 className="text-white text-2xl md:text-4xl font-black mb-8 uppercase">
-          Hi, I am <br />
-          <span style={{ color: primaryColor }}>
-            YASH CHORDIYA
-          </span>
-        </h1>
+        <h1 className="text-white text-2xl md:text-4xl font-black mb-4 uppercase">
+  Hi, I am <br />
+  <span style={{ color: primaryColor }}>
+    YASH CHORDIYA
+  </span>
+</h1>
+
+<h2
+  className={`text-xl md:text-2xl font-semibold text-slate-300 mb-6 transition-opacity duration-500 ${
+    fade ? "opacity-100" : "opacity-0"
+  }`}
+>
+  {titles[index]}
+</h2>
 
         <p className="text-slate-400 text-lg md:text-xl max-w-lg mb-8 leading-relaxed text-left">
           <span className="text-white font-semibold text-xl md:text-2xl leading-snug">
