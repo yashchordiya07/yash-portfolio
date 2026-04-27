@@ -16,6 +16,36 @@ const Projects = ({ projects, activeFilter, currentTheme, setCurrentTheme, THEME
 
 const projectData = [
   {
+    title: "AI Global Impact Analyzer",
+    category: "AI / Finance",
+    description:
+      "AI system translating macroeconomic & geopolitical events into structured investment insights.",
+    impact:
+      "Generated quantified risk/opportunity signals with decision scoring (0–10), enabling faster macro-driven analysis.",
+    tech: ["Python", "FastAPI", "Ollama", "LLMs", "React"],
+    keyFeatures: [
+      "Structured risk & opportunity scoring",
+      "Sector-level impact mapping",
+      "Resilience scoring (0–10 scale)",
+      "Local LLM deployment (zero API cost)"
+    ]
+  },
+  {
+    title: "Multi-Agent AI Decision System",
+    category: "AI / Systems",
+    description:
+      "Autonomous multi-agent system (Research → Analyst → Critic) for structured decision-making.",
+    impact:
+      "Improved decision reliability via critic-based validation and iterative refinement loops.",
+    tech: ["Python", "FastAPI", "Ollama", "LLM Agents"],
+    keyFeatures: [
+      "Multi-agent reasoning pipeline",
+      "Critic-driven validation loop",
+      "Confidence scoring system",
+      "Pipeline observability & tracing"
+    ]
+  },
+  {
     title: "Email AI Automation System",
     category: "AI / LLM",
     description:
